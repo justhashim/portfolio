@@ -1,17 +1,28 @@
-# Hashim Mohamed T.A.'s Portfolio
+# Terminal Portfolio
 
-Welcome to my portfolio page! This is a personal project built using React.js to showcase my skills, projects, and achievements as a software developer.
+A portfolio that is a fake terminal. Type commands to look around.
 
-## Features
+## What it does
 
-- **Responsive Design**: The portfolio is designed to be responsive, ensuring a great user experience across devices (desktop, tablet, mobile).
-- **Smooth Navigation**: Navigation is designed to be intuitive and simple to use.
-- **Project Showcase**: A section dedicated to showcasing my development projects and contributions.
-- **Skills and Tools**: Information about the programming languages, tools, and technologies I use.
-- **Contact Form**: A form to reach out for any inquiries or opportunities.
+- A terminal in the browser with a Matrix-style rain background.
+- Commands: `help`, `whoami`, `skills`, `projects`, `contact`, `ls`, `cd`, `cat`.
+- Folders are `Skills`, `Projects` and `Contact`. Files are `About.txt` and `Resume.pdf`.
+- Project and contact entries are links.
 
-## Technologies Used
+## Stack
 
-- **Frontend**: React.js, HTML, CSS
-- **State Management**: React Hooks
-- **Styling**: CSS/SCSS for custom styles
+- React 19 (Create React App)
+- `react-terminal`, styled-components
+
+## Run it locally
+
+```bash
+npm install
+npm start
+```
+
+Other scripts: `npm run build`, `npm test`.
+
+## Notes
+
+This is the previous version of my portfolio, from early 2025. It has since been replaced by a newer one. Kept here as it was.
